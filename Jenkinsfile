@@ -3,6 +3,8 @@
 def config = readYaml text: """
   APP: 'Demo'
   VERSION: 'v2'
+  DOCKER_IMAGE: 'manu756/app_for_demo'
+  DOCKERFILE_LOCATION: 'apps/.'
 """
 
 config.keySet().each {
