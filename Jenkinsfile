@@ -2,6 +2,7 @@
 
 def config = readYaml text: """
   APP: 'Demo'
+  VERSION: 'v2'
 """
 
 config.keySet().each {
