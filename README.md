@@ -29,7 +29,7 @@ sudo usermod -aG docker $USER
 We go to use docker to deploy Jenkins:
 
 ~~~
-docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 5000:5000 jenkins/jenkins:lts
 ~~~
 
 Go inside localhost:8080 and do this command in shell:
