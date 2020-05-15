@@ -2,7 +2,7 @@ This is a repository where I execute all my demos.
 
 # Instructions:
 
-First of all we are going to create our environment, to that we need install: Docker, Jenkins and Microk8s.
+First of all we are going to create our environment, to that we need install: Docker, Jenkins and minikube.
 
 ## Docker install
 
