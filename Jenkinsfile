@@ -2,7 +2,7 @@
 
 def config = readYaml text: """
   APP: 'Demo'
-  VERSION: 'v2'
+  VERSION: 'v3'
   DOCKER_IMAGE: 'manu756/app_for_demo'
   DOCKERFILE_LOCATION: 'app/.'
   SVC_NAME: 'nodejs-app'
